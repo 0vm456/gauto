@@ -1,0 +1,133 @@
+body {
+    background-image: url(../bk.png) ;
+    background-position: center;  
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flexbox;
+    border: none;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+       
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    
+}
+
+
+.header {
+    width: 201.5vh;
+    height: 20vh;
+    display: flexbox;
+    background-color: rgba(0,0,235,35%);
+    max-width: 100%;
+
+}
+
+ 
+.h1 {
+    background-color: rgba(0, 56, 146, 0.85);    
+    color: white;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    
+}
+
+
+.list-container {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 40px;
+    max-width: 100%;
+
+}
+
+.list-container > li > a {
+  text-decoration: none;
+  color: #dddd;
+}
+
+.list-container > li > .music:hover {
+    color: white;
+
+}
+
+.cliqueaqui:hover {
+    color: #dddd;
+    transition:  0.5s ease-in-out;
+    opacity: 1;
+    text-decoration: none;
+    align-items: center;
+    max-width: 100%;
+    
+
+}
+
+
+.cliqueaqui {
+    text-decoration: none;
+    align-items: center; 
+    max-width: 100%;
+    
+
+}
+
+ 
+.buttonclick {
+    color: blue;
+    border-radius: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    max-width: 100%;
+    
+}   
+
+
+.div-pr {
+    color: white;
+    border-radius: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+
+/* Segunda Parte */
+
+footer {
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #dddd;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0;
+    height: 0;
+    line-height: 1px;
+}
+
+hr {
+    border: 1px solid #dddd;
+}
